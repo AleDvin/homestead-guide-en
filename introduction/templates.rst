@@ -359,15 +359,15 @@ The function returns the value from the list obtained by **GetList** function;
 
 ForList(name) … FormListEnd 
 =============================
-The function displays a full list of entries obtained using **GetList** function; the *name* that was specified in the *GetList* function shall be used as the name parameter value. The end of the one record display template is fixed by the **FormListEnd** closing function. The values of the entry columns contain variables of #name_column# type, where the name of the table column is indicated after the underscore; the #index# variable is available, which contains the sequence number of the entry, starting with 1.
+The function displays a full list of entries obtained using **GetList** function; the *name* that was specified in the *GetList* function shall be used as the name parameter value. The end of the one record display template is fixed by the **FormListEnd** closing function. The values of the entry columns contain variables of #column# type; the #index# variable is available, which contains the sequence number of the entry, starting with 1.
 
 .. code:: js
 
       GetList(my, #state#_mytable, "id,param,value")
       ForList(my)
           Divs(md-5, panel) 
-             Strong(#my_index#: #my_ param #)
-             P(pclass, #my_value#)
+             Strong(#index#: #param #)
+             P(pclass, #value#)
           DivsEnd: 
       ForListEnd:
 
