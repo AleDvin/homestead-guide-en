@@ -414,7 +414,7 @@ The function creates a table with values from the database. The function has the
      }
 
 ********************************************************************************
-Display of contracts
+Call contracts
 ********************************************************************************
 
 BtnContract(contract, name, message, params, [class], [onsuccess], [pageparams]) 
