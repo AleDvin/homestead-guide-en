@@ -197,7 +197,7 @@ The data are listed line by line: first, the variable name is specified (only va
 *	*map* - map with the ability to mark the place;
 *	*image* - images upload;
 *	*text* - entry of the text of HTML-code in the textarea field;
-*crypt:Field* - create and encrypt a private key for the destination specified in the *Field* field. If only * crypt * is specified, then the private key will be created for the user who signs the contract.
+* *crypt:Field* - create and encrypt a private key for the destination specified in the *Field* field. If only * crypt * is specified, then the private key will be created for the user who signs the contract.
 *	*address* - field for input of the wallet address;
 *	*signature:contractname* - a line to display the contractname contract, which requires the signatures (it is discussed in detail in a special description section).
 
