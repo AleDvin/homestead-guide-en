@@ -5,18 +5,17 @@ General information
 What is Apla?
 ********************************************************************************
 
-Apla is a universal blockchain-platform for organizing of economical, governmental and social activities of citizens and their communities in planetary scales. Apla proposes mechanism protected from falsification for facts saving and usage of them for creation of any contracts that  regulate relationships between people and organizations. 
+Apla is a public blockchain platform for building digital ecosystems. The platform includes an Integrated Development Environment with a multi-level system for the management of access rights to data, interfaces, and smart contracts. The Apla platform is built on software of the EGAAS corporation (EGAAS S.A.). 
 
-In spite of other existed blockchain-projects trying to solve local tasks, Apla offers the complex solution for shifting of all instruments needed for governmental and business management on blockchain-platform. Apla provides the mechanism for creation of object registries included in legal and economical relations of individuals and legal entities, properties, securities and ect. Apla gives the opportunity for Central Banks to open accounts for all citizens and organizations, allowing to conduct transactions in national currency. Apla supports the technology of smart contracts needed for business operations. The smart contracts automatically implement the algorithm of deals with objects registry using transactions between the central bank's accounts. 
-
-The mechanism of formation and usage of smart laws is implemented in Apla first in the world. Smart laws are the electronic algorithms describing norms and terms of governmental laws performance, which are proved by electronic signatures of representatives of legislature or through the referendum. Smart laws regulate the creation and implementation of smart contracts and automatically regulate the relations between citizens and organizations in all spheres of governmental activities (from civil status registration to payment of tax).
-
-Thus Apla combines financial system, the structure of registries, mechanisms of smart contracts and smart laws into one blockchain platform, providing state, citizens and business with full instrument for governing of any activity.
+From this overview of the existing features of the Apla blockchain network, it can be inferred that, in terms of structure and functionality, Apla is significantly different from most of the existing blockchain platforms:
+* The development and use of blockchain applications is carried out in autonomous programming environments with a defined quantity of members, called ecosystems
+* Activities in ecosystems are based on creating registers and recording/modifying the data involved using smart contracts, whereas in most other blockchain platforms activities are based on exchanging transactions or messages between accounts
+* Management of access permissions to registers, and relation management between ecosystem members are regulated by a set of rules called smart laws.
 
 ********************************************************************************
 Technical implementation
 ********************************************************************************
-According to the technical view, Apla is an open blockchain platform designed for implementation of sophisticated applications (e-government level) working with distributed registries. Special languages are used for description of transactions and interfaces.
+The Apla blockchain platform is based on a peer-to-peer network. Full nodes of the network store an up-to-date version of the blockchain and a database, in which the current state of the platform is recorded. After having been verified, transactions are recorded in a new block, and the data is simultaneously updated in the database.
 
 Contract itself is a basic construction for implementation of apps algorithms. The completed fragments of code are designed in a form of contracts, which ensure taking of incoming data from user or other contract, analysis of data’s correctness and implementation of the needed transactions. The language of contracts is a scripting language with a fast compilation into bite code, containing the needed set of functions for creation of registries and performing of any kind of transactions with records in them. 
 
